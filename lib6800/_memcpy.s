@@ -21,7 +21,7 @@ _memcpy:
 	stab	@tmp3+1		; src end address
 	staa	@tmp3
 	ldx	4,x		; src
-	stx	@tmp2
+;	stx	@tmp2
 memcpy_loop:
 	ldab	0,x		; read from src
 	inx
