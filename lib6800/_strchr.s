@@ -20,7 +20,7 @@ loop:
 	ldaa 0,x
 	bne loop
 ;
-	clra
+;	clra
 	clrb
 	jmp ret4
 ;
